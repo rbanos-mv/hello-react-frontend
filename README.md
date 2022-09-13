@@ -1,8 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Hello react front-end
 
-> Description the project.
+> This exercise is about creating a "Hello World" application to display a random message. The back-end is built with Rails and the front-end with React.
+
+> ## The api service for this front-end application is [Hello rails back-end](https://github.com/rbanos-mv/hello-rails-backend)
 
 ## Built With
 
@@ -11,15 +13,13 @@
 - ReactJS
 - Redux
 
-## Live Demo
-
-[GitHub Live Demo Link](https://rbanos-mv.github.io/hello-react-frontend/)
-
 ### Getting Started
 
 To get a local copy up and running follow these simple steps:
 
 ### Prerequisites
+
+Before you run this application, you need to install and run the [Hello rails back-end](https://github.com/rbanos-mv/hello-rails-backend) api service
 
 Open your terminal and navigate to the folder you would like to save the project.
 
@@ -30,12 +30,6 @@ Type these commands into the terminal:
 ```
 git clone https://github.com/rbanos-mv/hello-react-frontend.git
 cd hello-react-frontend
-```
-
-You will need a `.env` file before you install and run the project. The `.env` file contains environment variables needed to deploy the webpage. There is a commented `.env.example` file you can use as a guide to configure your own. Type the following command into the terminal (or Git Bash, if using Windows) to create your `.env` file:
-
-```
-cp .env.example .env
 ```
 
 ### Install
@@ -65,20 +59,6 @@ npm run start
 ```
 
 - Your web browser will open on [http://localhost:3000](http://localhost:3000)
-
-### Run tests
-
-Type this command into the terminal:
-
-```
-npm run test
-```
-
-### Deployment
-
-```
-npm run deploy
-```
 
 ## Authors
 
